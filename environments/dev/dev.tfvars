@@ -1,3 +1,3 @@
-ami_id        = "ami-0abcd1234efgh5678"
-instance_type = "t2.small"
-key_name      = "dev-key-pair"
+ami_id        = "ami-012967cc5a8c9f891"
+instance_type = "t2.micro"
+key_name      = "testing"
