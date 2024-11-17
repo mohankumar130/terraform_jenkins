@@ -1,5 +1,5 @@
 resource "aws_instance" "example" {
-  ami           = var.ami_id
+  ami           = data.aws_ami.aml2_ami.id
   instance_type = var.instance_type
 
   tags = {

@@ -4,7 +4,7 @@ data "aws_ami" "aml2_ami" {
 
   filter {
     name = "name"
-    values = ["Amazon Linux 2023 AMI*"]
+    values = ["al2023-ami-2023.6*"]
   }
 }
 data "aws_ami" "nat_ami" {
